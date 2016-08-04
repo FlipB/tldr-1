@@ -21,3 +21,7 @@
 - Compare directories, only showing the names of files that differ:
 
 `diff -rq {{directory1}} {{directory2}}`
+
+- Create patch file of changes from directory1 to directory2:
+
+`diff -Naur {{directory1}} {{directory2}} > {{patchfile}}`
